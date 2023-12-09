@@ -1,0 +1,124 @@
+2023-12-09 01:35:21,814 - DEBUG - Mapping train: 
+2023-12-09 01:35:26,983 - DEBUG - Mapping test: 
+2023-12-09 01:35:26,983 - DEBUG - Ready to generate train and test datasets
+2023-12-09 01:35:31,097 - DEBUG - Starting Decision tree
+2023-12-09 01:35:51,718 - DEBUG - Training time: 20.620850324630737
+2023-12-09 01:35:51,753 - DEBUG - Test time: 0.032195329666137695
+2023-12-09 01:35:51,753 - DEBUG - Starting Random Forest
+2023-12-09 01:45:10,620 - DEBUG - Training time: 558.9000084400177
+2023-12-09 01:45:11,936 - DEBUG - Test time: 1.3152120113372803
+2023-12-09 01:45:11,936 - DEBUG - Starting Multi layer perceptron
+2023-12-09 01:57:53,303 - DEBUG - Training time: 762.6818561553955
+2023-12-09 01:57:53,520 - DEBUG - Test time: 0.21764254570007324
+2023-12-09 01:57:53,520 - DEBUG - Starting Gradient boost
+2023-12-09 02:01:55,298 - DEBUG - Training time: 1004.6773121356964
+2023-12-09 02:01:55,343 - DEBUG - Test time: 0.04425358772277832
+2023-12-09 02:01:55,343 - DEBUG - Starting Naive Bayes
+2023-12-09 02:02:00,332 - DEBUG - Training time: 1009.7114026546478
+2023-12-09 02:02:00,422 - DEBUG - Test time: 0.08990263938903809
+2023-12-09 02:02:00,423 - DEBUG - Starting KNN
+2023-12-09 02:02:01,411 - DEBUG - Training time: 1010.7903470993042
+2023-12-09 02:24:52,805 - DEBUG - Mapping train: 
+2023-12-09 02:24:58,534 - DEBUG - Mapping test: 
+2023-12-09 02:24:58,534 - DEBUG - Ready to generate train and test datasets
+2023-12-09 02:24:58,577 - DEBUG - Starting Decision tree
+2023-12-09 02:25:19,272 - DEBUG - Training time: 20.69466805458069
+2023-12-09 02:25:19,295 - DEBUG - Test time: 0.02364492416381836
+2023-12-09 02:25:19,295 - DEBUG - Starting Random Forest
+2023-12-09 02:35:16,148 - DEBUG - Training time: 596.8749303817749
+2023-12-09 02:35:17,416 - DEBUG - Test time: 1.2684545516967773
+2023-12-09 02:35:17,416 - DEBUG - Starting Multi layer perceptron
+2023-12-09 02:47:58,347 - DEBUG - Training time: 762.1995570659637
+2023-12-09 02:47:58,466 - DEBUG - Test time: 0.11864089965820312
+2023-12-09 02:47:58,466 - DEBUG - Starting Gradient boost
+2023-12-09 02:51:47,791 - DEBUG - Training time: 991.6433663368225
+2023-12-09 02:51:47,827 - DEBUG - Test time: 0.03574967384338379
+2023-12-09 02:51:47,827 - DEBUG - Starting Naive Bayes
+2023-12-09 02:51:52,659 - DEBUG - Training time: 996.5113410949707
+2023-12-09 02:51:52,704 - DEBUG - Test time: 0.0451815128326416
+2023-12-09 02:51:52,704 - DEBUG - Starting KNN
+2023-12-09 02:51:53,557 - DEBUG - Training time: 997.4091572761536
+2023-12-09 08:32:18,933 - DEBUG - Test time: 20425.37463402748
+2023-12-09 08:32:18,987 - DEBUG - Decision Tree, accuracy: 0.8996460615897921 F1 score:0.8997151016496904
+2023-12-09 08:32:18,995 - DEBUG - [[34892  4185]
+ [ 4718 44921]]
+2023-12-09 08:32:19,017 - DEBUG - Random Forest, accuracy: 0.9360656476847469 F1 score:0.9357683934930737
+2023-12-09 08:32:19,025 - DEBUG - [[34892  4185]
+ [ 1487 48152]]
+2023-12-09 08:32:19,044 - DEBUG - MultiLayerPerceptron, accuracy: 0.7622187654988953 F1 score:0.7554454753825335
+2023-12-09 08:32:19,051 - DEBUG - [[39059    18]
+ [21077 28562]]
+2023-12-09 08:32:19,070 - DEBUG - Naive Bayes, accuracy: 0.8736191893232337 F1 score:0.8694477994019969
+2023-12-09 08:32:19,077 - DEBUG - [[27865 11212]
+ [    0 49639]]
+2023-12-09 08:32:19,096 - DEBUG - GradienBoost, accuracy: 0.9272622751251184 F1 score:0.9262152250746597
+2023-12-09 08:32:19,103 - DEBUG - [[32638  6439]
+ [   14 49625]]
+2023-12-09 08:32:19,124 - DEBUG - Starting KNN, accuracy: 0.6333581315658957 F1 score:0.6187061257739969
+2023-12-09 08:32:19,131 - DEBUG - [[32638  6439]
+ [   14 49625]]
+2023-12-09 08:32:19,191 - DEBUG - Mapping online: 
+2023-12-09 08:32:19,192 - DEBUG - Mapping train: 
+2023-12-09 08:32:23,851 - DEBUG - *************         *************         ***********           *************         *********************     ************          ***********           *****************
+2023-12-09 08:32:23,852 - DEBUG - Dataset value         Decision Tree         Nayve Bayes           Random Forest         MultiLayer Perceptron     GradienBoost              KNN               Comparison result
+2023-12-09 08:32:23,852 - DEBUG - *************         *************         ***********           *************         *********************     ************          ***********           *****************
+2023-12-09 08:32:23,852 - DEBUG - legitimate            legitimate            legitimate            legitimate            legitimate                legitimate             legitimate            True
+2023-12-09 08:32:23,853 - DEBUG - dos                   dos                   dos                   dos                   dos                       dos                    dos                   True
+2023-12-09 08:32:23,853 - DEBUG - legitimate            legitimate            legitimate            legitimate            legitimate                legitimate             legitimate            True
+2023-12-09 08:32:23,853 - DEBUG - dos                   dos                   dos                   legitimate            dos                       dos                    legitimate            False
+2023-12-09 08:32:23,853 - DEBUG - legitimate            legitimate            legitimate            legitimate            dos                       legitimate             legitimate            True
+2023-12-09 08:32:23,854 - DEBUG - dos                   dos                   dos                   legitimate            dos                       dos                    legitimate            False
+2023-12-09 08:32:23,854 - DEBUG - dos                   dos                   dos                   legitimate            dos                       dos                    legitimate            False
+2023-12-09 08:32:23,854 - DEBUG - legitimate            legitimate            legitimate            legitimate            legitimate                legitimate             legitimate            True
+2023-12-09 08:32:23,855 - DEBUG - legitimate            legitimate            legitimate            legitimate            dos                       legitimate             legitimate            True
+2023-12-09 08:32:23,855 - DEBUG - legitimate            legitimate            legitimate            legitimate            legitimate                legitimate             legitimate            True
+2023-12-09 08:32:23,855 - DEBUG - legitimate            legitimate            legitimate            legitimate            legitimate                legitimate             legitimate            True
+2023-12-09 08:32:23,855 - DEBUG - dos                   dos                   dos                   dos                   dos                       dos                    dos                   True
+2023-12-09 08:32:23,855 - DEBUG - dos                   dos                   legitimate            legitimate            legitimate                dos                    legitimate            False
+2023-12-09 08:32:23,855 - DEBUG - legitimate            legitimate            legitimate            legitimate            legitimate                legitimate             legitimate            True
+2023-12-09 08:32:23,855 - DEBUG - dos                   dos                   dos                   legitimate            dos                       dos                    legitimate            False
+2023-12-09 08:32:23,855 - DEBUG - legitimate            legitimate            legitimate            legitimate            dos                       legitimate             legitimate            True
+2023-12-09 09:12:14,148 - DEBUG - Starting Decision tree
+2023-12-09 09:12:28,975 - DEBUG - Training time: 23832.827136278152
+2023-12-09 09:12:29,013 - DEBUG - Test time: 0.038002729415893555
+2023-12-09 09:12:39,298 - DEBUG - Decision Tree, accuracy: 0.8886784796429055 F1 score:0.8888734127986393
+2023-12-09 09:12:39,306 - DEBUG - [[34892  4185]
+ [ 5691 43948]]
+2023-12-09 09:12:39,324 - DEBUG - Random Forest, accuracy: 0.9360656476847469 F1 score:0.9357683934930737
+2023-12-09 09:12:39,331 - DEBUG - [[34892  4185]
+ [ 1487 48152]]
+2023-12-09 09:12:39,350 - DEBUG - MultiLayerPerceptron, accuracy: 0.7622187654988953 F1 score:0.7554454753825335
+2023-12-09 09:12:39,357 - DEBUG - [[39059    18]
+ [21077 28562]]
+2023-12-09 09:12:39,376 - DEBUG - Naive Bayes, accuracy: 0.8736191893232337 F1 score:0.8694477994019969
+2023-12-09 09:12:39,383 - DEBUG - [[27865 11212]
+ [    0 49639]]
+2023-12-09 09:12:39,404 - DEBUG - GradienBoost, accuracy: 0.9272622751251184 F1 score:0.9262152250746597
+2023-12-09 09:12:39,412 - DEBUG - [[32638  6439]
+ [   14 49625]]
+2023-12-09 09:12:39,433 - DEBUG - Starting KNN, accuracy: 0.6333581315658957 F1 score:0.6187061257739969
+2023-12-09 09:12:39,440 - DEBUG - [[32638  6439]
+ [   14 49625]]
+2023-12-09 09:13:54,698 - DEBUG - Saving models
+2023-12-09 09:14:44,132 - DEBUG - Saving models
+2023-12-09 09:14:59,858 - DEBUG - Decision Tree, accuracy: 0.8886784796429055 F1 score:0.8888734127986393
+2023-12-09 09:14:59,866 - DEBUG - [[34892  4185]
+ [ 5691 43948]]
+2023-12-09 09:14:59,887 - DEBUG - Random Forest, accuracy: 0.9360656476847469 F1 score:0.9357683934930737
+2023-12-09 09:14:59,894 - DEBUG - [[34892  4185]
+ [ 1487 48152]]
+2023-12-09 09:14:59,914 - DEBUG - MultiLayerPerceptron, accuracy: 0.7622187654988953 F1 score:0.7554454753825335
+2023-12-09 09:14:59,921 - DEBUG - [[39059    18]
+ [21077 28562]]
+2023-12-09 09:14:59,943 - DEBUG - Naive Bayes, accuracy: 0.8736191893232337 F1 score:0.8694477994019969
+2023-12-09 09:14:59,949 - DEBUG - [[27865 11212]
+ [    0 49639]]
+2023-12-09 09:14:59,969 - DEBUG - GradienBoost, accuracy: 0.9272622751251184 F1 score:0.9262152250746597
+2023-12-09 09:14:59,977 - DEBUG - [[32638  6439]
+ [   14 49625]]
+2023-12-09 09:15:00,000 - DEBUG - Starting KNN, accuracy: 0.6333581315658957 F1 score:0.6187061257739969
+2023-12-09 09:15:00,007 - DEBUG - [[32638  6439]
+ [   14 49625]]
+2023-12-09 09:15:08,074 - DEBUG - Saving models
+2023-12-09 09:15:49,755 - DEBUG - Saving models
+2023-12-09 09:15:51,173 - DEBUG - Models saved
